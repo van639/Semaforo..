@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+header{
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+main{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.butao{
+    box-sizing: border-box;
+    
+}
+
+button{
+    width: 100px;
+    padding: 8px;
+
+}
+footer{
+    height: 40px;
+}
